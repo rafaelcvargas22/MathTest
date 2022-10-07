@@ -1,0 +1,4 @@
+Prefix pipelines/MathTest/example
+Plugin DoubleTest inputfile numbers.txt outputfile doubleoutput.txt
+Plugin SquareTest inputfile doubleoutput.txt outputfile squareoutput.txt
+Plugin SumTest inputfile squareoutput.txt outputfile sumoutput.txt
